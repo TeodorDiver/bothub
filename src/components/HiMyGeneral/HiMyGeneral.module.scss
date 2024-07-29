@@ -1,0 +1,23 @@
+.himygeneral{
+    position: relative;
+    left: 120px;
+
+    p{
+        color: orangered;
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .himygeneral{
+        position: relative;
+        left: 50px;
+    
+        p{
+            color: orangered;
+            font-size: 36px;
+            font-weight: 700;
+        }
+    }
+}

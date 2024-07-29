@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(18, 24, 37, 1);
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 1250px;
+  margin: 50px auto;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  /* Стили для экранов шириной до 480px */
+  .wrapper {
+    width: 400px;
+    margin: 10px 30px;
+  }
+}
+

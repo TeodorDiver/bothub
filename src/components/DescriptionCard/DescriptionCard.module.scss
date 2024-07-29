@@ -1,0 +1,25 @@
+$assetPath: "/./assets/images/";
+
+.descriptionCard {
+    position: relative;
+    background: url($assetPath + "description-card.jpg");
+    background-size: cover;
+    width: 903px;
+    height: 512px;
+    left: 200px;
+    top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Стили для экранов шириной до 480px */
+    .descriptionCard {
+        position: relative;
+        background: url($assetPath + "description-card.jpg");
+        background-size:contain;
+        width: 420px;
+        height: 238px;
+        left: 5px;
+        top: 20px;
+    }
+  }

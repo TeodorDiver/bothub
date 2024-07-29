@@ -1,0 +1,27 @@
+button {
+    position: relative;
+    background-color: orangered;
+    top: 120px;
+    left: 580px;
+    color: aliceblue;
+    width: 150px;
+    height: 70px;
+    border-radius: 9%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+    button {
+        position: relative;
+        background-color: orangered;
+        top: 60px;
+        left: 140px;
+        color: aliceblue;
+        width: 150px;
+        height: 70px;
+        border-radius: 9%;
+        font-size: 36px;
+        font-weight: 600;
+    }
+}
